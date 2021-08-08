@@ -39,11 +39,11 @@
    
    資料夾結構
 
-   <img src="/images/folder_structure.PNG" width="50%">
+   <img src="https://github.com/dongqifong/01_Tutorial/blob/main/05_Docker_Experience/images/folder_structure.PNG" width="50%">
 
    requirements.txt內容
 
-   <img src="/images/requirements.PNG" width="30%">
+   <img src="https://github.com/dongqifong/01_Tutorial/blob/main/05_Docker_Experience/images/requirements.PNG" width="30%">
 
 7. 以docker build指令建立自己的image
    > docker build -t <image_name:tag> .
