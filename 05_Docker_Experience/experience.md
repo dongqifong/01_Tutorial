@@ -37,9 +37,14 @@
    ```
 6. requirements.txt的位置要跟Dockerfile同一層
    
+   資料夾結構
+
    <img src="https://github.com/dongqifong/01_Tutorial/blob/main/05_Docker_Experience/images/folder_structure.PNG" width="50%">
 
-   ![Alt text](./images/requirements.PNG)
+   > requirements.txt內容
+
+   <img src="https://github.com/dongqifong/01_Tutorial/blob/main/05_Docker_Experience/images/requirements.PNG" width="50%">
+
 7. 以docker build指令建立自己的image
    > docker build -t <image_name:tag> .
 
