@@ -58,7 +58,7 @@
 2. 以docker指令run，如果是要建立一個jupyterlab的開發環境就要記得產生container連外的街口(port)
    > docker run -it -p 82:8888 6de62981d855 /bin/bash -c "jupyter lab --ip='*' --port=8888 --no-browser --allow-root"
    
-   意思是，你要在在某個image(image id=6de62981d855)上，建立一個container，而且要有想要在container中開啟jupyterlab，且產生一個對外接口(8888)連到本地的接口(82)，這樣我們在網頁已localhost:82就可以連到container內部的開發環境
+   意思是，你要在在某個image(image id=6de62981d855)上，產生一個container，而且要有想要在container中開啟jupyterlab，於是產生一個對外接口(8888)連到本地的接口(82)，這樣我們在本地網頁輸入localhost:82就可以連到container內部的開發環境(jupyterlab)
 
 
 ## 將container檔案拷貝回本機
