@@ -19,7 +19,7 @@
 
 ## 打包的流程
 
-1. 在dockerhub找一個基礎的image做base
+1. 在dockerhub找一個基礎的image做基底
 2. 將想要複製的資料夾結構寫進Dockerfile裡面
 3. 如果有自己想要額外安裝的套件寫在requirements.txt裡面
 4. 用docker指令build自己的image
@@ -49,6 +49,7 @@
    > docker build -t <image_name:tag> .
 
    > ex: docker build -t my_first_image:0.0.1 .
+   
 8. 這樣之後每個基於此image所建立的container，都會有my_workspace這個開發資料夾，且所有套件的版本都會相同。
 
 
