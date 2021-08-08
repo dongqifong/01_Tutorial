@@ -37,8 +37,8 @@
    ```
 6. requirements.txt的位置要跟Dockerfile同一層
    
-   ![Alt text](/images/folder_structure.PNG)
-   ![Alt text](/images/requirements.PNG)
+   ![Alt text](../images/folder_structure.PNG)
+   ![Alt text](../images/requirements.PNG)
 7. 以docker build指令建立自己的image
    > docker build -t <image_name:tag> .
 
